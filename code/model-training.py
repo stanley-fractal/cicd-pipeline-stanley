@@ -5,7 +5,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import joblib
 from sklearn.ensemble import RandomForestClassifier
 
-#Test for cicd - 1
+#Test for cicd - 2
 df = pd.read_csv('data/ecommerce-dataset.csv')
 df.dropna(inplace=True)
 
